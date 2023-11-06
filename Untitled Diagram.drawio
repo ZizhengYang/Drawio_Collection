@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-11-06T18:14:42.388Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Nqb1JpZd6bBY6EnR2uaz" version="22.0.8" type="github">
+  <diagram name="Page-1" id="TVcNw2cXa96mg9cXmelL">
+    <mxGraphModel dx="954" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G3R4MpoaQxRnn6ERGGIx-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="160" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FUH4f3lmkXy6I0F01qCV-15" target="G3R4MpoaQxRnn6ERGGIx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FUH4f3lmkXy6I0F01qCV-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="350" as="sourcePoint" />
+            <mxPoint x="220" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-14" value="Reshape to 72x72" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="340" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-15" value="Normalization" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="160" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="160" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="160" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FUH4f3lmkXy6I0F01qCV-20" target="FUH4f3lmkXy6I0F01qCV-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="380" as="sourcePoint" />
+            <mxPoint x="220" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FUH4f3lmkXy6I0F01qCV-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data enhancement&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Random Flip&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Random Rotate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Random Zoom&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
